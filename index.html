@@ -12,9 +12,10 @@
 
   <body style="margin: 0; overflow: hidden;">
     <a-scene>
-        <a-box src="https://i.imgur.com/mYmmbrp.jpg" position="0 2 -5" rotation="0 45 45"
-          scale=".5 .5 .5" animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 2000; loop: true"></a-box>
-      
+        <a-box src="https://images.squarespace-cdn.com/content/v1/5ce01e02f4b257000166d314/1558283065921-5UCJL448XC0ECQQCMNPQ/VegvisirGuide.jpg?format=500w" position="0 2 -5" rotation="0 45 45"
+          scale=".5 .5 .5" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"></a-box>
+
+          <a-camera gps-camera rotation-reader></a-camera>
       </a-scene>
   </body>
 </html>
